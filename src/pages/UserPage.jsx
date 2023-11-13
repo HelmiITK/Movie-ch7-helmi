@@ -25,7 +25,6 @@ const UserPage = () => {
         ? user?.email
         : user?.email.replace(/.{4}(?=@)/g, '****');
 
-
     return (
         <>
             <div className="w-full h-screen flex flex-col justify-center items-center bg-slate-800">
